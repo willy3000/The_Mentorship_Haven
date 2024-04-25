@@ -1,0 +1,676 @@
+ /*
+  
+@media (max-width: 640px) {
+  .call-action {
+    margin-top: 20px; 
+  }
+
+
+  .contactus {
+    position: absolute;
+    margin-top: 6px;
+    left: 45%;
+    font-size: 22px;
+    color: rgb(12, 12, 110);
+ }
+
+ .color_me {
+  color: orangered;
+ }
+
+  .email {
+    position: absolute;
+    top: 80px;
+    left: 29%;
+    text-align: center; 
+    color: black;
+    padding: 10px;
+ }
+
+ .email-us {
+    position: absolute;
+    top: 90px;
+    left: 25%;
+    font-size: 18px;
+ }
+
+ .twitter {
+    position: absolute;
+    top: 85px;
+    left: 75%;
+    text-align: center; 
+    color: black;
+ }
+
+ .tweet-us {
+    position: absolute;
+    top: 88px;
+    left: 70%;
+    font-size: 19px;
+}
+
+ .phone {
+    position: absolute;
+    top: 85px;
+    left: 44%;
+    font-size: 18px;
+    color: black;
+ }
+
+ .call {
+  position: absolute;
+  top: 90px;
+  left: 40%;
+  color: rgb(253, 253, 255);
+  font-size: 19px;
+}
+
+
+ .whatsapp {
+    position: absolute;
+    top: 85px; 
+    left: 62%;
+    color: black;
+ } 
+
+ .text {
+    position: absolute;
+    top: 85px;
+    left: 54%;
+    font-size: 19px;
+ }
+
+.first-line {
+  margin: 5px;
+  height: 2px;
+}
+
+
+.hr {
+  position: relative;
+  
+  margin: 30px;
+  height: 125px;
+  border-radius: 5px;
+  padding: 20px 0px 0px 0px;
+  
+}
+
+
+
+.impact-head {
+  position: absolute;
+  margin-top: 8%;
+  left: 6%;
+  font-size: 30px;
+  color: rgb(205, 51, 24);
+}
+
+.impact-image {
+  position: absolute;
+  margin-top: 6%;
+  left: 63%;
+  width: 450px;
+  height: auto;
+}
+
+
+
+.life-touched {
+  position: relative;
+  margin-top: 66%;
+  
+}
+
+.kenya-flag {
+  position: absolute;
+  top: 400px;
+  left: 5%;
+}
+
+.operations {
+  position: absolute;
+  right: 74%;
+  top: 400px;
+  font-size: 15px;
+}
+
+.three, .months {
+  font-size: 25px;
+  margin-left: 80px;
+}
+
+.heart {
+  position: absolute;
+  top: 400px;
+  left: 32%;
+}
+
+.period {
+  position: absolute;
+  top: 400px;
+  left: 40%;
+  font-size: 15px;
+}
+
+.lend-hand {
+  position: absolute;
+  top: 405px;
+  left: 68%;
+ }
+
+ .donate5 {
+  position: absolute;
+  top: 400px;
+  left: 75%;
+  font-size: 15px;
+ }
+
+ .pound {
+    font-size: 25px;
+    margin-left: 80px;
+ }
+
+
+ .copy {
+  position: inherit;
+  text-align: center;
+  top: 30px;
+ }
+
+ .talent {
+  position: relative;
+ }
+
+.on-tal {
+  position: absolute;
+  left: 35%;
+  margin-top: 31%;
+  color: rgb(205, 51, 24);
+  font-size: 30px;
+}
+
+.tal-cont {
+  position: absolute;
+  left: 35%;
+  margin-top: 34%;
+  font-size: 20px;
+}
+
+.img-tal {
+  position: absolute;
+  top: 400px;
+  border-radius: 5px;
+  left: 6%;
+}
+
+.on-ment {
+  position: relative;
+}
+
+.on-ment-header {
+  position: absolute;
+  margin-top: 52%;
+  left: 5%;
+  font-size: 30px;
+  color: rgb(205, 51, 24);
+
+}
+
+.ment-image {
+  position: absolute;
+  margin-top: 50%;
+  left: 64%;
+  border-radius: 5px;
+}
+
+.ment-cont {
+  position: absolute;
+  margin-top: 55%;
+  left: 5%;
+  font-size: 20px;
+}
+
+.on-sports {
+  position: relative;
+}
+
+.on-sports-header {
+  position: absolute;
+  margin-top: 73%;
+  left: 35%;
+  font-size: 30px;
+  color: rgb(205, 51, 24);
+}
+
+.cont-sports {
+  position: absolute;
+  margin-top: 76%;
+  left: 35%;
+  font-size: 20px;
+}
+
+.img-sports {
+  position: absolute;
+  margin-top: 70%;
+  left: 5%;
+  border-radius: 5px;
+}
+
+.container-x {
+  
+  margin: 5px;
+}
+
+
+
+ @media (max-width: 700px) {
+ } 
+
+
+ .on-ment {
+  position: relative;
+}
+
+.on-ment-header {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 5%;
+  font-size: 30px;
+  color: hsl(18, 82%, 50%); 
+}*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  /*background-color:rgb(231, 185, 32, 0.3);*/
+  margin-top: 0;
+  
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.logo-and-name{
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 90px;
+  height: auto;
+  float: left;
+  margin-left: 10px;
+} 
+
+.name-org {
+  font-size: 35px;
+  color: rgb(21, 21, 101);
+  margin-bottom: 10px;
+}
+
+.comp {
+  color: orangered;
+}
+
+.navbar {
+  background-color: rgb(231, 185, 32);
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  z-index: 1;
+  
+  
+}
+
+.navlink {
+  display: flex;
+  text-decoration: none;
+  color: rgb(12, 5, 92);
+  padding: 5px;
+  margin: 10px;
+  margin-left: 80px;
+  justify-content: space-between;
+  transition: all .3s ease-in-out;
+  font-size: 18px;
+  
+}
+
+.navlink:hover {
+  color: orangered;
+  transition: background-color 0.3s ease;
+}
+
+.btn-donate {
+  margin-top: 15px;
+  font-size: 15px;
+  margin-left: 70px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(64, 194, 90);
+}
+
+ .btn-donate:hover{
+  background-color: #106013;
+  color: white;
+ }
+ 
+
+ .img {
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin-top: 105px;
+ }
+
+ .out8 {
+    position: relative;
+    height: auto;
+    width: 20px;
+    margin-top: 105px;
+ }
+
+ .home-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(3, 37, 81);  
+    text-align: center; 
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 38px;
+    margin-top: 50px;
+ }
+
+ .edu {
+  color: rgb(227, 209, 10);
+}
+
+.spo {
+  color: rgb(15, 227, 15);
+}
+
+.men {
+  color: rgb(26, 220, 254);
+}
+
+.tal {
+  color: rgb(250, 22, 22);
+}
+
+ .call-action {
+    position: absolute;
+    top: 60%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid transparent;
+    background: linear-gradient(to bottom, rgba(129, 144, 145, 0.5), rgba(55, 54, 54, 0.5));
+    border-radius: 5px;
+    border-top-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    font-size: 21px;
+    word-spacing: 2px;
+    padding: 1.4rem;
+    margin-top: 70px;
+    color: rgb(246, 244, 243);
+    
+ }
+
+ .photos {
+    position: absolute;
+    top: 87%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: rgb(3, 28, 53); 
+    text-align: center; 
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(64, 194, 90);
+    font-size: 15px;
+}
+
+.photos:hover {
+  background-color: #298d2c;
+  color: white;
+}
+
+
+.vision-statement {
+  margin-top: 2%; 
+  margin-left: 5.5%; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /*border: 1px solid rgb(35, 33, 33);*/
+  /*background: linear-gradient(to bottom, rgba(129, 144, 145, 0.4), rgba(221, 219, 219, 0.2));*/
+  border-top-right-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+  word-spacing: 2px;
+  font-size: 15px;
+  padding: 1.6em;
+  margin-bottom: 1em;
+  
+  
+}
+
+.mission-statement {
+   margin-top: 2%; 
+   margin-left: 19%; 
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   /*border: 1px solid rgb(35, 33, 33);
+   background: linear-gradient(to bottom, rgba(236, 240, 241, 0.4), rgba(55, 54, 54, 0.2));*/
+   border-top-left-radius: 5rem;
+   border-bottom-right-radius: 5rem;
+   word-spacing: 2px;
+   font-size: 15px;
+   padding: 1.6em;
+   margin-bottom: 1em;
+   
+ }
+
+ .hr {
+    display: flex;
+    background-color: rgb(231, 185, 32);
+    margin: 20px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+ }
+
+ .mission {
+  font-size: 25px;
+  color: rgb(202, 51, 24);  
+ }
+
+ .vision {
+  font-size: 25px;
+  color: rgb(202, 51, 24); 
+ }
+
+ 
+.impact-image {
+  margin-top: 2%;
+  margin-left: 7%;
+  width: 35%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.impact-cont {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.edu-cont {
+  margin-top: 15%;
+  margin-left: 5%;
+  margin: 10px;
+  font-size: 21px;
+  color: black;
+  
+}
+
+.impact-head {
+  color: orangered;
+  margin-top: 3%;
+  margin-right: 50%;
+  font-size: 26px;
+  text-align: center;
+  
+}
+
+.talent {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.img-tal {
+  margin-top: 1.5%;
+  margin-left: 57%;
+  width: 35%;
+  border-radius: 5px;
+  height: 19em;
+}
+
+.on-tal {
+  margin-top: -33%;
+  margin-left: 48%;
+  font-size: 26px;
+  color: orangered;
+  text-align: center;
+  
+}
+
+.tal-cont {
+  font-size: 1.3rem;
+  color: black;
+  /*margin-top: 20%;*/
+}
+
+.on-ment {
+  display: flex;
+  flex-direction: column;
+}
+
+.on-ment-header {
+  color: orangered;
+  margin-top: 5%;
+  margin-right: 50%;
+  font-size: 26px;
+  text-align: center;
+}
+
+.ment-image {
+  margin-top: 2%;
+  margin-left: 7%;
+  width: 35%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.ment-cont {
+  font-size: 1.3rem;
+  color: black;
+}
+
+.on-sports {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-sports {
+  margin-top: 1.5%;
+  margin-left: 57%;
+  width: 35%;
+  border-radius: 5px;
+  height: 19em;
+}
+
+.on-sports-header {
+  margin-top: -33%;
+  margin-left: 48%;
+  font-size: 26px;
+  color: orangered;
+  text-align: center;
+  
+}
+
+.cont-sports {
+  font-size: 1.3rem;
+  color: black;
+}
+
+.life-touched {
+  display: flex;
+  margin-top: 7%;
+  /*justify-content: center;*/
+  background-color: rgb(231, 185, 32);
+  padding: 10px;
+  margin: 20px;
+  border-radius: 2px;
+}
+
+.kenya-flag {
+  margin-left: 6%;
+}
+
+.heart {
+  margin-left: 4%;
+}
+
+.lend-hand {
+  margin-left: 4%;
+}
+
+.three {
+  font-size: 25px;
+  margin-left: 20%;
+}
+
+.months {
+  font-size: 25px;
+  margin-left: 15%;
+}
+
+.pound {
+  font-size: 25px;
+  margin-left: 15%;
+}
+
+.events {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20%;
+  color: red;
+  
+}
+
+.contact-cotent {
+  font-size: 20px;
+} 
+
+.about {
+  
+  align-items: center;
+  margin-left: 20%;
+  padding-top: 200px;
+  
+}
+

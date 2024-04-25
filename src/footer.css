@@ -1,0 +1,141 @@
+/* .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer h5 {
+    margin-bottom: 15px;
+}
+
+.footer a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #ccc;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer .text {
+    margin-top: 10px;
+}
+
+.footer .copy {
+    margin-top: 90px;
+    padding: 5px;
+}
+
+ .footer {
+  position: relative;
+  margin-top: 1900px;
+  background-color: #52dede;
+
+ }
+
+ .footer-logo {
+    position: absolute;
+    top: 2px;
+    left: 40%;
+ }
+
+ .call-Us {
+  position: absolute;
+  top: 42px;
+  left: 40%;
+  font-size: 18px;
+ } */
+
+ .footercontainer {
+    padding: 5px 5px 5px;
+    ;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 1700px;
+
+ }
+
+ .icons {
+    display: flex;
+    justify-content: right;
+    margin-top: 30px;
+    
+ }
+
+ .socials {
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+    margin-top: 10px ;
+    margin-right: 170px;
+ }
+
+ .icons a{
+    text-decoration: none;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+ }
+
+ .icons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+ }
+
+.icons a:hover{
+    background-color: #f41818;
+    transition: 0.5s;
+ } 
+
+ .icons a:hover i{
+    color: #f9f8f8;
+    transition: 0.5s;
+ }
+
+.footer-nav {
+    margin: 30px 0;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav ul li a {
+    color: rgb(249, 244, 244);
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7s;
+    transition: 0.5s;
+}
+
+.footer-nav ul li a:hover {
+    opacity: 1;
+    color: #132efc;
+}
+
+ footer {
+    background-color: rgb(175, 175, 174);
+   
+ }
+
+ .copy-cat {
+    text-align: center;
+    font-size: 17px;
+    margin-left: 40px;
+    color: white;
+ }
+
+ li {
+    list-style: none;
+ }
+
